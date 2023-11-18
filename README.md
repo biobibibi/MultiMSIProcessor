@@ -62,17 +62,15 @@ As mass spectrometry imaging (MSI) has emerged as a revolutionary method for bio
       * 5.PLSDA_Plot.pdf
       * This process was recorded in the "./MultiMSIProcessor-master/Supplementary files/Tab3.mp4" (till 0:41).
     * "Show boxplot and MS image" button shows the MS image and intensity boxplots.<br />
-
-![pic5](https://github.com/biobibibi/MultiMSIProcessor/assets/53837584/778de64a-4223-43af-b942-779c3284ff0c)
+    ![pic5](https://github.com/biobibibi/MultiMSIProcessor/assets/53837584/167be8f9-a0fd-4d25-8665-17bdb4475bc2)
 
     * Clicking the "Match with the database" button helps users to choose the dictionary to annotate their m/zs. The dictionary is supplied in the "./MultiMSIProcessor-master/Supplementary files/5DB_Dictionary".
       * Users could easily DIY their dictionary for the annotation process.<br />
       * Sankey plot, Upset plot, and annotation results would be exported together into the folder where the dictionary is located.
     * The m/z list box on the left side of the "Match with the database" button also allows simple copy and paste to load the data.<br />
     * The "Export the m/z and P value" button could export the intensities of these significant mzs within the ROIs, together with its MSI image data.
-    * The enrichment analysis is based on the R package "MSEA" [1] and "FELLA" [2] using KEGG ID. Please note that the number of provided input KEGG IDs is recommended to less than 100 (as shown in the video, we filtered the database annotation results before the enrichment analysis and the filtered result was provided in the"./MultiMSIProcessor-master/Supplementary files/filtered_100_results.txt"). The enrichment databases are also provided in the "./MultiMSIProcessor-master/Supplementary files/metabolic_SMPDB_KEGG_id_for_MassInRaw" and "./MultiMSIProcessor-master/Supplementary files/FELLA_database".<br />
-
-![pic6](https://github.com/biobibibi/MultiMSIProcessor/assets/53837584/27dbce86-4ac4-43dd-b966-64d1033285bc)
+    * The enrichment analysis is based on the R package "MSEA"[^1] and "FELLA"[^2] using KEGG ID. Please note that the number of provided input KEGG IDs is recommended to less than 100 (as shown in the video, we filtered the database annotation results before the enrichment analysis, and the filtered result was provided in the"./MultiMSIProcessor-master/Supplementary files/filtered_100_results.txt"). The enrichment databases are also provided in the "./MultiMSIProcessor-master/Supplementary files/metabolic_SMPDB_KEGG_id_for_MassInRaw". The FELLA_database is available following the [FELLA vignette](https://www.bioconductor.org/packages/release/bioc/vignettes/FELLA/inst/doc/FELLA.pdf).<br />
+    ![pic6](https://github.com/biobibibi/MultiMSIProcessor/assets/53837584/27dbce86-4ac4-43dd-b966-64d1033285bc)
 
 ## 3. License and modifications
   * Multi MSI Processor is eager to develop and welcomes suggestions and rational critics.<br />
@@ -80,5 +78,5 @@ As mass spectrometry imaging (MSI) has emerged as a revolutionary method for bio
   * Please make a note of and respect the RawFileReader license in any modifications you make and wish to distribute.
 
 
-1. Xia J, Wishart D S. MSEA: a web-based tool to identify biologically meaningful patterns in quantitative metabolomic data[J]. Nucleic acids research, 2010, 38(suppl_2): W71-W77.
-2. Picart-Armada S, Fernández-Albert F, Vinaixa M, et al. FELLA: an R package to enrich metabolomics data[J]. BMC bioinformatics, 2018, 19: 1-9.
+[^1]: Xia J, Wishart D S. MSEA: a web-based tool to identify biologically meaningful patterns in quantitative metabolomic data[J]. Nucleic acids research, 2010, 38(suppl_2): W71-W77.
+[^2]: Picart-Armada S, Fernández-Albert F, Vinaixa M, et al. FELLA: an R package to enrich metabolomics data[J]. BMC bioinformatics, 2018, 19: 1-9.
