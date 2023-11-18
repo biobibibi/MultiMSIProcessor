@@ -1,0 +1,95 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Remove="app.manifest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="app.manifest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DynamicInterop">
+      <HintPath>bin\Debug\net6.0-windows\DynamicInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.SystemEvents">
+      <HintPath>bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="MSDataFileReader">
+      <HintPath>bin\Debug\net6.0-windows\MSDataFileReader.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMcdf">
+      <HintPath>bin\Debug\net6.0-windows\OpenMcdf.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMcdf.Extensions">
+      <HintPath>bin\Debug\net6.0-windows\OpenMcdf.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="PRISM">
+      <HintPath>bin\Debug\net6.0-windows\PRISM.dll</HintPath>
+    </Reference>
+    <Reference Include="RDotNet">
+      <HintPath>bin\Debug\net6.0-windows\RDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>bin\Debug\net6.0-windows\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlClient">
+      <HintPath>bin\Debug\net6.0-windows\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <HintPath>bin\Debug\net6.0-windows\System.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Selectors">
+      <HintPath>bin\Debug\net6.0-windows\System.IdentityModel.Selectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <HintPath>bin\Debug\net6.0-windows\System.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="ThermoFisher.CommonCore.BackgroundSubtraction">
+      <HintPath>bin\Debug\net6.0-windows\ThermoFisher.CommonCore.BackgroundSubtraction.dll</HintPath>
+    </Reference>
+    <Reference Include="ThermoFisher.CommonCore.Data">
+      <HintPath>bin\Debug\net6.0-windows\ThermoFisher.CommonCore.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ThermoFisher.CommonCore.MassPrecisionEstimator">
+      <HintPath>bin\Debug\net6.0-windows\ThermoFisher.CommonCore.MassPrecisionEstimator.dll</HintPath>
+    </Reference>
+    <Reference Include="ThermoFisher.CommonCore.RawFileReader">
+      <HintPath>bin\Debug\net6.0-windows\ThermoFisher.CommonCore.RawFileReader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

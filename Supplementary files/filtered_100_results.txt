@@ -1,0 +1,101 @@
+m.z	compund	adduct	benchmark.m.z	ppm.difference	database	database_ID
+165.0874	L-Glutamate;L-Glutamic acid;L-Glutaminic acid;Glutamate	M+NH4	165.087023	2.28364406337683	KEGG	C00025
+203.0526	D-Glucose;Grape sugar;Dextrose;Glucose;D-Glucopyranose	M+Na	203.052618	0.0886469731849312	KEGG	C00031
+219.0271	D-Glucose;Grape sugar;Dextrose;Glucose;D-Glucopyranose	M+K	219.026558	2.47458575318443	KEGG	C00031
+147.1122	L-Lysine;Lysine acid;26-Diaminohexanoic acid	M+H	147.112776	3.91536354391985	KEGG	C00047
+213.0752	L-Arginine;(S)-2-Amino-5-guanidinovaleric acid;L-Arg	M+K	213.074858	1.60506970742266	KEGG	C00062
+166.0859	L-Phenylalanine;(S)-alpha-Amino-beta-phenylpropionic acid	M+H	166.086276	2.2638836214776	KEGG	C00079
+203.0526	D-Fructose;Levulose;Fruit sugar;D-arabino-Hexulose	M+Na	203.052618	0.0886469731849312	KEGG	C00095
+219.0271	D-Fructose;Levulose;Fruit sugar;D-arabino-Hexulose	M+K	219.026558	2.47458575318443	KEGG	C00095
+132.1021	L-Leucine;2-Amino-4-methylvaleric acid;(2S)-alpha-2-Amino-4-methylvaleric acid;(2S)-alpha-Leucine	M+H	132.101876	1.69566100638032	KEGG	C00123
+203.0526	D-Galactose;D-Galactopyranose	M+Na	203.052618	0.0886469731849312	KEGG	C00124
+219.0271	D-Galactose;D-Galactopyranose	M+K	219.026558	2.47458575318443	KEGG	C00124
+203.0526	myo-Inositol;D-myo-Inositol;1D-myo-Inositol;L-myo-Inositol;1L-myo-Inositol;meso-Inositol;Inositol;Dambose;Cyclohexitol;Meat sugar;Bios I	M+Na	203.052618	0.0886469731849312	KEGG	C00137
+219.0271	myo-Inositol;D-myo-Inositol;1D-myo-Inositol;L-myo-Inositol;1L-myo-Inositol;meso-Inositol;Inositol;Dambose;Cyclohexitol;Meat sugar;Bios I	M+K	219.026558	2.47458575318443	KEGG	C00137
+116.0702	L-Proline;2-Pyrrolidinecarboxylic acid	M+H	116.070576	3.23940840961122	KEGG	C00148
+138.0527	L-Proline;2-Pyrrolidinecarboxylic acid	M+Na	138.052518	1.31833886575862	KEGG	C00148
+203.0526	D-Mannose;Mannose;Seminose;Carubinose	M+Na	203.052618	0.0886469731849312	KEGG	C00159
+219.0271	D-Mannose;Mannose;Seminose;Carubinose	M+K	219.026558	2.47458575318443	KEGG	C00159
+118.0862	L-Valine;2-Amino-3-methylbutyric acid	M+H	118.086276	0.643597228799556	KEGG	C00183
+140.0676	L-Valine;2-Amino-3-methylbutyric acid	M+Na	140.068218	4.41213580658886	KEGG	C00183
+156.042	L-Valine;2-Amino-3-methylbutyric acid	M+K	156.042158	1.01254687851082	KEGG	C00183
+268.1041	Adenosine	M+H	268.104076	0.0895174752816859	KEGG	C00212
+243.0981	Thymidine;Deoxythymidine	M+H	243.097576	2.15551306025538	KEGG	C00214
+165.0874	D-Glutamate;D-Glutamic acid;D-Glutaminic acid;D-2-Aminoglutaric acid	M+NH4	165.087023	2.28364406337683	KEGG	C00217
+203.0526	beta-D-Glucose	M+Na	203.052618	0.0886469731849312	KEGG	C00221
+219.0271	beta-D-Glucose	M+K	219.026558	2.47458575318443	KEGG	C00221
+148.0034	Taurine;2-Aminoethanesulfonic acid;Aminoethylsulfonic acid	M+Na	148.003918	3.49990734704452	KEGG	C00245
+203.0526	L-Sorbose;L-xylo-Hexulose	M+Na	203.052618	0.0886469731849312	KEGG	C00247
+219.0271	L-Sorbose;L-xylo-Hexulose	M+K	219.026558	2.47458575318443	KEGG	C00247
+137.0458	Hypoxanthine;Purine-6-ol	M+H	137.045776	0.175123967517765	KEGG	C00262
+159.0272	Hypoxanthine;Purine-6-ol	M+Na	159.027718	3.25729380081763	KEGG	C00262
+175.0016	Hypoxanthine;Purine-6-ol	M+K	175.001658	0.331425431384614	KEGG	C00262
+203.0526	alpha-D-Glucose	M+Na	203.052618	0.0886469731849312	KEGG	C00267
+219.0271	alpha-D-Glucose	M+K	219.026558	2.47458575318443	KEGG	C00267
+259.1521	Tetrahydrobiopterin;5678-Tetrahydrobiopterin;2-Amino-6-(12-dihydroxypropyl)-5678-tetrahydoro-4(1H)-pteridinone;L-erythro-Tetrahydrobiopterin	M+NH4	259.151323	2.9982482475221	KEGG	C00272
+94.0649	Aniline;Phenylamine;Benzenamine;Arylamine	M+H	94.065076	1.87104510509714	KEGG	C00292
+291.0704	Inosine	M+Na	291.070018	1.31239899810595	KEGG	C00294
+132.077	Creatine;alpha-Methylguanidino acetic acid;Methylglycocyamine	M+H	132.076776	1.69598325146041	KEGG	C00300
+154.0589	Creatine;alpha-Methylguanidino acetic acid;Methylglycocyamine	M+Na	154.058718	1.1813677431435	KEGG	C00300
+165.0874	Glutamate;Glutaminic acid;2-Aminoglutaric acid	M+NH4	165.087023	2.28364406337683	KEGG	C00302
+146.1649	Spermidine;N-(3-Aminopropyl)-14-butane-diamine	M+H	146.165176	1.88827467367268	KEGG	C00315
+184.0938	L-Carnitine;L-gamma-Trimethyl-beta-hydroxybutyrobetaine;Vitamin BT;3-Carboxy-2-hydroxy-NNN-trimethyl-1-propanaminium hydroxide inner salt;Levocarnitine;(R)-Carnitine	M+Na	184.094418	3.35697305065977	KEGG	C00318
+200.0676	L-Carnitine;L-gamma-Trimethyl-beta-hydroxybutyrobetaine;Vitamin BT;3-Carboxy-2-hydroxy-NNN-trimethyl-1-propanaminium hydroxide inner salt;Levocarnitine;(R)-Carnitine	M+K	200.068358	3.78870505845051	KEGG	C00318
+268.1041	Deoxyguanosine;2-Deoxyguanosine	M+H	268.104076	0.0895174752816859	KEGG	C00330
+104.0702	4-Aminobutanoate;4-Aminobutanoic acid;4-Aminobutyrate;4-Aminobutyric acid;gamma-Aminobutyric acid;GABA	M+H	104.070576	3.61293282361403	KEGG	C00334
+309.0476	dUMP;Deoxyuridylic acid;Deoxyuridine monophosphate;Deoxyuridine 5-phosphate;2-Deoxyuridine 5-phosphate	M+H	309.048276	2.18736052744901	KEGG	C00365
+237.1458	Zeatin;N6-(4-Hydroxyisopentenyl)adenine;(E)-2-Methyl-4-(1H-purin-6-ylamino)but-2-en-1-ol;trans-Zeatin	M+NH4	237.145823	0.0969867388251405	KEGG	C00371
+132.1021	L-Isoleucine;2-Amino-3-methylvaleric acid	M+H	132.101876	1.69566100638032	KEGG	C00407
+130.0859	L-Pipecolate;Pipecolinic acid;Pipecolic acid;2-Piperidinecarboxylic acid;(S)-Piperidine-2-carboxylic acid	M+H	130.086276	2.89038945190965	KEGG	C00408
+147.1122	L-Pipecolate;Pipecolinic acid;Pipecolic acid;2-Piperidinecarboxylic acid;(S)-Piperidine-2-carboxylic acid	M+NH4	147.112823	4.23484498010259	KEGG	C00408
+116.1074	Cyclohexanone	M+NH4	116.107023	3.24700427467074	KEGG	C00414
+166.0859	trans-Cinnamate;trans-Cinnamic acid;(E)-Cinnamate;(2E)-3-Phenylprop-2-enoate	M+NH4	166.086223	1.94477298686184	KEGG	C00423
+375.2135	Prostaglandin H2;(5Z13E)-(15S)-9alpha11alpha-Epidioxy-15-hydroxyprosta-513-dienoate;(5Z13E15S)-9alpha11alpha-Epidioxy-15-hydroxyprosta-513-dienoate;PGH2;(5Z9alpha11alpha13E15S)-911-Epidioxy-15-hydroxy-prosta-513-dienoate	M+Na	375.214218	1.91357354162473	KEGG	C00427
+132.077	56-Dihydrouracil;Dihydro-24(1H3H)-pyrimidinedione;Dihydrouracile;Dihydrouracil;56-Dihydro-24-dihydroxypyrimidine;Hydrouracil;24-Dioxotetrahydropyrimidine	M+NH4	132.076723	2.09726584457418	KEGG	C00429
+118.0862	5-Aminopentanoate;5-Aminopentanoic acid;5-Aminovaleric acid	M+H	118.086276	0.643597228799556	KEGG	C00431
+140.0676	5-Aminopentanoate;5-Aminopentanoic acid;5-Aminovaleric acid	M+Na	140.068218	4.41213580658886	KEGG	C00431
+156.042	5-Aminopentanoate;5-Aminopentanoic acid;5-Aminovaleric acid	M+K	156.042158	1.01254687851082	KEGG	C00431
+277.1407	N6-(L-13-Dicarboxypropyl)-L-lysine;Saccharopine;L-Saccharopine;N-(S)-5-Amino-5-carboxypentyl-L-glutamic acid	M+H	277.139376	4.77737959529121	KEGG	C00449
+145.0974	(S)-2345-Tetrahydropyridine-2-carboxylate;delta1-Piperideine-6-L-carboxylate	M+NH4	145.097123	1.90906610865581	KEGG	C00450
+266.0742	Cytidine	M+Na	266.074718	1.94682156911869	KEGG	C00475
+138.0913	Tyramine;2-(p-Hydroxyphenyl)ethylamine	M+H	138.091376	0.550360219504732	KEGG	C00483
+90.0545	Acrylic acid;Propenoate;Acrylate;2-Propenoic acid;Vinylformic acid	M+NH4	90.054923	4.69713354813308	KEGG	C00511
+313.2136	Androsterone;3alpha-Hydroxy-5alpha-androstan-17-one	M+Na	313.213818	0.696010161397276	KEGG	C00523
+90.0545	Methylglyoxal;Pyruvaldehyde;Pyruvic aldehyde;2-Ketopropionaldehyde;2-Oxopropanal	M+NH4	90.054923	4.69713354813308	KEGG	C00546
+88.0756	4-Aminobutyraldehyde;4-Aminobutanal	M+H	88.075676	0.862894313829285	KEGG	C00555
+102.0911	Cyclopentanone	M+NH4	102.091323	2.18431883780577	KEGG	C00557
+156.042	Mandelonitrile;Benzaldehyde cyanohydrin;(R)-Mandelonitrile	M+Na	156.042018	0.115353545423886	KEGG	C00561
+375.2135	Prostaglandin E2;(5Z13E)-(15S)-11alpha15-Dihydroxy-9-oxoprosta-513-dienoate;(5Z13E)-(15S)-11alpha15-Dihydroxy-9-oxoprost-13-enoate;Dinoprostone;PGE2	M+Na	375.214218	1.91357354162473	KEGG	C00584
+203.0669	Coniferyl alcohol;Coniferol;4-(3-Hydroxy-1-propenyl)-2-methoxyphenol;trans-Coniferyl alcohol	M+Na	203.067818	4.52065723178466	KEGG	C00590
+138.0913	Phenylacetaldehyde;alpha-Tolualdehyde	M+NH4	138.091323	0.166556446119167	KEGG	C00601
+177.0877	4-Methylene-L-glutamate	M+NH4	177.087023	3.82297916897312	KEGG	C00651
+191.1035	LL-26-Diaminoheptanedioate;LL-26-Diaminopimelate;LL-26-Diaminopimelic acid	M+H	191.102676	4.31181821857055	KEGG	C00666
+191.1035	meso-26-Diaminoheptanedioate;meso-26-Diaminopimelate;meso-26-Diaminopimelic acid;meso-Diaminoheptanedioate	M+H	191.102676	4.31181821857055	KEGG	C00680
+375.2135	Prostaglandin D2;(5Z13E)-(15S)-9alpha15-Dihydroxy-11-oxoprosta-513-dienoate;(5Z13E15S)-9alpha15-Dihydroxy-11-oxoprosta-513-dienoate;PGD2	M+Na	375.214218	1.91357354162473	KEGG	C00696
+181.083	Pterin;2-Amino-4-oxopteridine;2-Amino-4-hydroxypteridine	M+NH4	181.083223	1.23147797079696	KEGG	C00715
+118.0862	Betaine;Trimethylaminoacetate;Glycine betaine;NNN-Trimethylglycine;Trimethylammonioacetate	M+H	118.086276	0.643597228799556	KEGG	C00719
+140.0676	Betaine;Trimethylaminoacetate;Glycine betaine;NNN-Trimethylglycine;Trimethylammonioacetate	M+Na	140.068218	4.41213580658886	KEGG	C00719
+156.042	Betaine;Trimethylaminoacetate;Glycine betaine;NNN-Trimethylglycine;Trimethylammonioacetate	M+K	156.042158	1.01254687851082	KEGG	C00719
+203.0526	D-Aldose;D-Aldose1;D-Aldose2	M+Na	203.052618	0.0886469731849312	KEGG	C00737
+219.0271	D-Aldose;D-Aldose1;D-Aldose2	M+K	219.026558	2.47458575318443	KEGG	C00737
+203.0526	D-Hexose;Hexose	M+Na	203.052618	0.0886469731849312	KEGG	C00738
+219.0271	D-Hexose;Hexose	M+K	219.026558	2.47458575318443	KEGG	C00738
+147.1122	D-Lysine;D-26-Diaminohexanoic acid	M+H	147.112776	3.91536354391985	KEGG	C00739
+104.0702	Diacetyl;Biacetyl;Dimethylglyoxal;23-Butanedione	M+NH4	104.070623	4.0645475908974	KEGG	C00741
+80.0495	Pyridine;Azabenzene	M+H	80.049476	0.299814579626346	KEGG	C00747
+97.0761	Pyridine;Azabenzene	M+NH4	97.076023	0.793192774186215	KEGG	C00747
+116.0702	D-Proline	M+H	116.070576	3.23940840961122	KEGG	C00763
+138.0527	D-Proline	M+Na	138.052518	1.31833886575862	KEGG	C00763
+203.0526	D-Sorbose;D-xylo-Hexulose	M+Na	203.052618	0.0886469731849312	KEGG	C00764
+219.0271	D-Sorbose;D-xylo-Hexulose	M+K	219.026558	2.47458575318443	KEGG	C00764
+233.0202	Scytalone;34-Dihydro-368-trihydoroxy-1(2H)-napthalenone	M+K	233.021058	3.68207065655942	KEGG	C00779
+136.0477	Creatinine;1-Methylglycocyamidine	M+Na	136.048118	3.07244235452235	KEGG	C00791
+152.022	Creatinine;1-Methylglycocyamidine	M+K	152.022058	0.381523581240248	KEGG	C00791
+213.0752	D-Arginine;D-2-Amino-5-guanidinovaleric acid	M+K	213.074858	1.60506970742266	KEGG	C00792
+203.0526	D-Tagatose;lyxo-Hexulose	M+Na	203.052618	0.0886469731849312	KEGG	C00795
+219.0271	D-Tagatose;lyxo-Hexulose	M+K	219.026558	2.47458575318443	KEGG	C00795
+245.1144	L-Arogenate;L-Arogenic acid;Pretyrosine	M+NH4	245.113223	4.80186252532047	KEGG	C00826
+191.1035	6-Oxocineole;(1R4S)-133-Trimethyl-2-oxabicyclo222octan-6-one;2-Oxo-18-cineole	M+Na	191.104218	3.75711225801522	KEGG	C00848
+207.0779	6-Oxocineole;(1R4S)-133-Trimethyl-2-oxabicyclo222octan-6-one;2-Oxo-18-cineole	M+K	207.078158	1.24590638865115	KEGG	C00848
+146.0918	56-Dihydrothymine;Dihydrothymine;56-Dihydro-5-methyluracil	M+NH4	146.092423	4.26442376132176	KEGG	C00906
+345.0003	Chloramphenicol	M+Na	345.001518	3.53041924874774	KEGG	C00918
