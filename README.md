@@ -52,6 +52,7 @@ As mass spectrometry imaging (MSI) has emerged as a revolutionary method for bio
     * The threshold allows users to define the maximum intensity of the image. Any pixels with intensity above this threshold would be red after typing in the number in the box and hitting "Enter".
     * Using the same logic as selecting ROIs for the QC plot, users can generate the ROIs in the tissue area and export their intensities.
       * The ROI selection and export function is supplied in the "./MultiMSIProcessor-master/Supplementary files/Tab2.mp4" (from 0:57 to the end).
+    * Notably, MMP offers a fast data input option in Tab2 as shown in the video "./MultiMSIProcessor-master/Supplementary files/txt files upload.mp4", which could skip the Tab1 data input option.
 
   * Tab3:<br />
     * After filling in pre-analysis parameters and clicking the "Processing" button, the following plots will be generated in the same folder of ROI.txt files:
