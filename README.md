@@ -28,6 +28,7 @@ As mass spectrometry imaging (MSI) has emerged as a revolutionary method for bio
     "Folder -> Subfolders 1 -> brain1.raw; brain2.raw; brain3.raw... "<br />
     "Folder -> Subfolders 2 -> kidney1.raw; kidney1.raw; kidney1.raw... "<br />
     Choose the "Folder" as input, then click the start extraction<br />
+    We provided two demo data in ".raw" format in the "./MultiMSIProcessor-master/Supplementary files/Demo Raw Data/" containing kidney and brain MSI data from rats, which were used as the input files as shown in the tutorial video: "./MultiMSIProcessor-master/Supplementary files/Tab1.mp4".
     * If you want to export the un-filtered data directly without playing around in Tab2 and Tab3, feel free to click "Export all the data" which will help users designate the folder to export. The export files will look like
      "./MSI experiments 1/mz1.txt", "./MSI experiments 1/mz2.txt", "./MSI experiments 1/mz3.txt" ...
      "./MSI experiments 2/mz1.txt", "./MSI experiments 2/mz2.txt", "./MSI experiments 2/mz3.txt" ...
@@ -37,11 +38,11 @@ As mass spectrometry imaging (MSI) has emerged as a revolutionary method for bio
 
   * Tab2:<br />
     * The QC plot function is recommended to be executed first:
-      1. Choose the MSI names and the representative mz.
-      2. For the ROS selection function, users should first check the "Select Rectangle ROI" and choose one selection mode. Then go to the picture to select the background ROIs.
-      3. After selecting the ROIs, one can type in the integer into the "Number of groups:" and hit "Enter" to add the groups into the group box.
-      4. After clicking "Matching ROI with intensities" and "Export m/z data within ROI and group info", users would export the QC data into the local computer, which should be the input file for the "QC plot" to generate the QC plot.
-      5. The QC plot function is shown in the "./MultiMSIProcessor-master/Supplementary files/Tab1.mp4" (from 1:00 to the end).
+      * 1.Choose the MSI names and the representative mz.
+      * 2.For the ROS selection function, users should first check the "Select Rectangle ROI" and choose one selection mode. Then go to the picture to select the background ROIs.
+      * 3.After selecting the ROIs, one can type in the integer into the "Number of groups:" and hit "Enter" to add the groups into the group box.
+      * 4.After clicking "Matching ROI with intensities" and "Export m/z data within ROI and group info", users would export the QC data into the local computer, which should be the input file for the "QC plot" to generate the QC plot.
+      * 5.The QC plot function is shown in the "./MultiMSIProcessor-master/Supplementary files/Tab1.mp4" (from 1:00 to the end).
     * Filtering based on "within tissue area" and "outside tissue area" is highly recommended to shorten the processing time. Users could click the mouse to select and right-click to undo the selection. <br />
       * The filtering tutorial is shown in the "./MultiMSIProcessor-master/Supplementary files/Tab2.mp4" (till 0:30).
     * After filtering, we recommend clicking the "Export Raw data" button to save all datacube into the local, which could be read directly later by "Upload the m/z intensity txt files". The folder-picking and export logic is the same as Tab1.<br />
