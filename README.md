@@ -5,7 +5,7 @@
 
 Welcome to the Mult-MSIProcessor page!
 
-As mass spectrometry imaging (MSI) has emerged as a revolutionary method for biomedical research, various MSI data processing applications have emerged but mining the underlying biological mechanisms remains a great challenge. Mult-MSIProcessor is an open-source and freely available C#-based program that could 
+As mass spectrometry imaging (MSI) has emerged as a revolutionary method for biomedical research, various MSI data processing applications have emerged but mining the underlying biological mechanisms remains a great challenge. Mult-MSIProcessor[^1] is an open-source and freely available C#-based program that could 
 * obtain the intensities of m/z in multiple MSI experiments without any format conversion and visualize the MSI data after finishing the data read-in process
 * m/z filtering:
   * intensities are mostly missing (> 90%)
@@ -71,16 +71,16 @@ As mass spectrometry imaging (MSI) has emerged as a revolutionary method for bio
       * Sankey plot, Upset plot, and annotation results would be exported together into the folder where the dictionary is located.
     * The m/z list box on the left side of the "Match with the database" button also allows simple copy and paste to load the data.<br />
     * The "Export the m/z and P value" button could export the intensities of these significant mzs within the ROIs, together with its MSI image data.
-    * The enrichment analysis is based on the R package "MSEA"[^1] and "FELLA"[^2] using KEGG ID. Please note that the number of provided input KEGG IDs is recommended to less than 100 (as shown in the video, we filtered the database annotation results before the enrichment analysis, and the filtered result was provided in the"./MultiMSIProcessor-master/Supplementary files/filtered_100_results.txt"). The enrichment databases are also provided in the "./MultiMSIProcessor-master/Supplementary files/metabolic_SMPDB_KEGG_id_for_MassInRaw". The FELLA_database is available following the [FELLA vignette](https://www.bioconductor.org/packages/release/bioc/vignettes/FELLA/inst/doc/FELLA.pdf).<br />
+    * The enrichment analysis is based on the R package "MSEA"[^2] and "FELLA"[^3] using KEGG ID. Please note that the number of provided input KEGG IDs is recommended to less than 100 (as shown in the video, we filtered the database annotation results before the enrichment analysis, and the filtered result was provided in the"./MultiMSIProcessor-master/Supplementary files/filtered_100_results.txt"). The enrichment databases are also provided in the "./MultiMSIProcessor-master/Supplementary files/metabolic_SMPDB_KEGG_id_for_MassInRaw". The FELLA_database is available following the [FELLA vignette](https://www.bioconductor.org/packages/release/bioc/vignettes/FELLA/inst/doc/FELLA.pdf).<br />
     ![pic6](https://github.com/biobibibi/MultiMSIProcessor/assets/53837584/15438bba-0357-4b6a-a911-7b368bf5a50c)
 
 ## 3. License and modifications
   * Multi MSI Processor is eager to develop and welcomes suggestions and rational critics.<br />
   * Multi MSI Processor (Copyright 2023 Siwei Bi, Manjiangcuo Wang, and Dan Du) is licensed under Apache 2.0.<br />
   * Please make a note of and respect the RawFileReader license in any modifications you make and wish to distribute.
-  * Citation using our published article is highly appreciated [^3].
+  * Citation using our published article is highly appreciated [^1].
 
 
-[^1]: Xia J, Wishart D S. MSEA: a web-based tool to identify biologically meaningful patterns in quantitative metabolomic data[J]. Nucleic acids research, 2010, 38(suppl_2): W71-W77.
-[^2]: Picart-Armada S, Fernández-Albert F, Vinaixa M, et al. FELLA: an R package to enrich metabolomics data[J]. BMC bioinformatics, 2018, 19: 1-9.
-[^3]: Bi S, Wang M, Pu Q, Yang J, Jiang N, Zhao X, Qiu S, Liu R, Xu R, Li X, Hu C. Multi-MSIProcessor: Data Visualizing and Analysis Software for Spatial Metabolomics Research[J]. Analytical Chemistry. 2023 Dec 16;96(1):339-46.
+[^1]: Bi S, Wang M, Pu Q, Yang J, Jiang N, Zhao X, Qiu S, Liu R, Xu R, Li X, Hu C. Multi-MSIProcessor: Data Visualizing and Analysis Software for Spatial Metabolomics Research[J]. Analytical Chemistry. 2023 Dec 16;96(1):339-46.
+[^2]: Xia J, Wishart D S. MSEA: a web-based tool to identify biologically meaningful patterns in quantitative metabolomic data[J]. Nucleic acids research, 2010, 38(suppl_2): W71-W77.
+[^3]: Picart-Armada S, Fernández-Albert F, Vinaixa M, et al. FELLA: an R package to enrich metabolomics data[J]. BMC bioinformatics, 2018, 19: 1-9.
