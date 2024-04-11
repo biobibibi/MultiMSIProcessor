@@ -78,7 +78,9 @@ As mass spectrometry imaging (MSI) has emerged as a revolutionary method for bio
   * Multi MSI Processor is eager to develop and welcomes suggestions and rational critics.<br />
   * Multi MSI Processor (Copyright 2023 Siwei Bi, Manjiangcuo Wang, and Dan Du) is licensed under Apache 2.0.<br />
   * Please make a note of and respect the RawFileReader license in any modifications you make and wish to distribute.
+  * Citation using our published article is highly appreciated [^3].
 
 
 [^1]: Xia J, Wishart D S. MSEA: a web-based tool to identify biologically meaningful patterns in quantitative metabolomic data[J]. Nucleic acids research, 2010, 38(suppl_2): W71-W77.
 [^2]: Picart-Armada S, Fernández-Albert F, Vinaixa M, et al. FELLA: an R package to enrich metabolomics data[J]. BMC bioinformatics, 2018, 19: 1-9.
+[^3]: Bi S, Wang M, Pu Q, Yang J, Jiang N, Zhao X, Qiu S, Liu R, Xu R, Li X, Hu C. Multi-MSIProcessor: Data Visualizing and Analysis Software for Spatial Metabolomics Research[J]. Analytical Chemistry. 2023 Dec 16;96(1):339-46.
