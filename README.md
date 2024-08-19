@@ -18,7 +18,7 @@ As mass spectrometry imaging (MSI) has emerged as a revolutionary method for bio
     * Download the whole project and open the "./MultiMSIProcessor-master/MultiMSIProcessor.sln". Or users can git clone the whole project in Visual Studio-Git-Clone Repository using the following URL: "https://github.com/biobibibi/MultiMSIProcessor".
     * In the Solution Explorer of the Visual Studio, right-click the Project, and find the Add-Project Reference... as shown in the following picture:
     * <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/53837584/281221439-6976c944-d999-40ab-8219-640bc803b65b.png" width= 65%>
-    * In the browse tab, click Browse and make sure to add the Supplementary_dll folder to the project. The Supplementary_dll folder is stored in the "./MultiMSIProcessor-master/Supplementary files/dlls/" folder.
+    * In the browse tab, click Browse and make sure to add the dlls in the "./MultiMSIProcessor-master/Supplementary files/dlls/" folder to the project. Try ctrl+A to select all dlls.
     * Then, open the Visual Studio, and hit ctrl+b, if the console says "Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped", then you are ready to go.
     * Download R https://www.r-project.org/
     * Run the "Package installation" code stored in the "./MultiMSIProcessor-master/Supplementary files" folder in the project in the R environment.
